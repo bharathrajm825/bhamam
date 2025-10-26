@@ -71,4 +71,35 @@
     position: relative;
     left: 600px;
     top: -500px;
+
+}
+
+@media (max-width: 800px) {
+    .lower {
+        padding-top: 120px;
+        min-height: auto;
+        align-items: center;
+        justify-content: flex-start;
+    }
+  
+    #bhap, #mamp {
+        position: static;
+        left: auto;
+        top: auto;
+        height: 260px;
+        width: auto;
+    }
+    .welcome h2 { 
+        font-size: 28px; 
+        text-align: center;
+    }
+    .upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .options{
+    width: 100%;
+    gap: 2px;
+    justify-content: center;
 }
