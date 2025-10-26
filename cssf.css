@@ -77,29 +77,42 @@
 @media (max-width: 800px) {
     .lower {
         padding-top: 120px;
-        min-height: auto;
-        align-items: center;
-        justify-content: flex-start;
+       
     }
   
     #bhap, #mamp {
-        position: static;
+    
         left: auto;
         top: auto;
         height: 260px;
         width: auto;
     }
     .welcome h2 { 
-        font-size: 28px; 
+        font-size: 29px; 
         text-align: center;
     }
     .upper{
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
     .options{
     width: 100%;
-    gap: 2px;
+    font-size: 12px;
+    
+    gap: 6px;
     justify-content: center;
 }
+.options h3{
+    height: 30px;
+    width: 80px;
+    padding: 10px;
+    font-size: 14px;
+}
+.upper  h1 {
+    font-size: 60px;
+    font-family:CHERISH;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+}
+
