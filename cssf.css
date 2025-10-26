@@ -1,0 +1,74 @@
+.upper  h1 {
+    color:#10439F;
+    min-width: fit-content;
+    font-size: 60px;
+    font-family:CHERISH;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    padding: 10px;
+    color: #fac2e3;
+    align-items: center;
+    justify-content: start;
+    gap: 90px;
+    width:60%;
+}
+.options h3{
+    display: flex;
+    background-color: #a702b6;
+    height: 40px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcontainer{
+     background: linear-gradient(to bottom, #ef5bad, #ffffff);
+    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.lower{
+    /* changed: use full viewport height and center with flexbox */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* horizontal centering */
+    justify-content: center;  /* vertical centering */
+    min-height: 100vh;        /* fill viewport height so vertical center works */
+    color: #611768;
+    font-family: "BITCOUNT GRID SINGLE";
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;                /* removed the large margin that pushed content away */
+}
+
+#bhap{
+    position: relative;
+    left: -550px;
+    top: 200px;
+}
+
+
+#mamp{
+    position: relative;
+    left: 600px;
+    top: -500px;
+}
